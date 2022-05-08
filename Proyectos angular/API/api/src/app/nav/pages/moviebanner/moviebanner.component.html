@@ -1,0 +1,5 @@
+<p>moviebanner works!</p>
+<div *ngFor="let dato of datos" class="card">
+  <h1>{{dato.title}}</h1>
+  <img class="imgClass" [src]="dato.movie_banner" alt="dato.movie_banner">
+</div>

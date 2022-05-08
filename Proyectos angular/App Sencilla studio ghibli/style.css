@@ -1,0 +1,19 @@
+.containerFilm {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid coral;
+    background-color: aliceblue;
+    min-width: 500px;
+    
+}
+img {
+    width: 100%;
+}

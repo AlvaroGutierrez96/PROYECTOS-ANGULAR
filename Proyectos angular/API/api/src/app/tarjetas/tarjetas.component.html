@@ -1,0 +1,9 @@
+
+
+  <div class="container">
+    <div *ngFor="let dato of datos" class="card">
+      <h1>{{dato.title}}</h1>
+      <img routerLink="./detalle/{{dato.id}}" class="imgClass" [src]="dato.image" alt="dato.title">
+    </div>
+  </div>
+
